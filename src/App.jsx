@@ -11,7 +11,7 @@ import Display from "./Display";
 import Rental from "./Rental";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4040/";
+  axios.defaults.baseURL = "https://bookshare-c71v.onrender.com/";
   axios.defaults.withCredentials = true;
 
   return (
